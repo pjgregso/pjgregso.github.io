@@ -45,7 +45,7 @@ a:hover {
 .content {
    display: flex;
    margin: 5%;
-   background-color: black;
+   background-color: blue;
 }
 
 .footer {
