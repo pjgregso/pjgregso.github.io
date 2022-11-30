@@ -1,0 +1,59 @@
+.grid {
+    display: grid;
+    grid-template-rows: 150px 75px 500px 150px;
+    height: 100vh;    
+}
+
+.header {
+    grid-row: 1/2;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.navbar {
+    background-color:dodgerblue;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+
+}
+
+.nav-item {
+    display: inline-flex;
+    list-style: none;
+    padding-inline: 35px;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link {
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.content {
+   display: flex;
+   margin: 5%;
+   background-color: black;
+}
+
+.footer {
+    background-color: dodgerblue;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+}
