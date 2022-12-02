@@ -43,9 +43,32 @@ a:hover {
 }
 
 .content {
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
    margin: 5%;
-   background-color: blue;
+   
+}
+
+.item1 {
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item2 {
+    padding: 1%;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.item3 {
+    margin: 0 auto;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: blue;
+    
 }
 
 .footer {
@@ -57,3 +80,4 @@ a:hover {
 h4 {
     color: white;
 }
+
