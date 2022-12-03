@@ -28,6 +28,8 @@ img {
     list-style: none;
     margin: 0; 
     background: #4A7FE7;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
   }
   .navigation a {
     text-decoration: none;
@@ -43,6 +45,7 @@ img {
 
 .wrapper{
     max-width: 100%;
+    
 }
 
 
@@ -53,6 +56,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .image {
@@ -74,15 +78,17 @@ img {
     padding: 10px;
     text-align: center;
     border: 5px black;
+    text-align: center;
+    color:  #070057;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .footer {
     background-color: #4A7FE7;
     grid-row: 4/5;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-
 
 
 .button{
@@ -90,12 +96,15 @@ img {
     border-radius: 5%;
     padding: 25px 30px;
     display: inline-block;
-    background-color: green;
+    background-color:#0FB20B;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .button a{
     color:white;
-    background-color: green;
+    background-color:#0FB20B;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -112,4 +121,5 @@ img {
 h4 {
     color: white;
     background-color: #4A7FE7;
+    
 }
