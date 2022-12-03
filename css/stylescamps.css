@@ -1,14 +1,17 @@
 
 .grid {
     display: grid;
-    grid-template-rows: 150px 75px 500px 150px;
-    height: 100vh;
-     
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 90vh;    
+    margin-left: -10px;
+    margin-right: -10px;
+   
 }
 
 .header {
     grid-row: 1/2;
     text-align: center;
+
 }
 
 img {
@@ -20,7 +23,7 @@ img {
     flex-flow: row wrap;
     justify-content: space-evenly;
     list-style: none;
-    margin: 0; 
+    margin: 0 auto; 
     background: #4A7FE7;
   }
   .navigation a {
@@ -29,30 +32,43 @@ img {
     padding: .75em;
     color: white;
     background: #4A7FE7;
+   
   }
   .navigation a:hover {
     background: #1565C0;
-    color:yellow;
+    color:#EBFF00;
   }
 .content {
     grid-row: 3/4;
+    justify-self: center;
+    
 }
 
 .footer {
     background-color: #4A7FE7;
     grid-row: 4/5;
     text-align: center;
+    
 }
 
 h4 {
     color: white;
 }
-h1{text-align: center;}
+h1{
+    text-align: center;
+    color:  #070057;
+
+}
 
 p{
     text-align: center;
   font-size: 1.33em;
+  color: #070057;
   font-family: 'Arsenal', sans-serif;
+  max-width: 50%;
+  margin: 0 auto;
+  
+  
 }
 
 form{text-align: center;
@@ -62,11 +78,16 @@ form{text-align: center;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     margin-left: 10em;
     margin-right: 10em;
-    
+    padding: 1em;
+    margin-bottom: 2em;
+    color:  #070057;
     }
 
-h2{text-align: center;
-    font-family: 'Arsenal', sans-serif;
+
+.btn{
+    margin: 20px;
+    padding: 50px;
+
 }
 
 .center {
@@ -88,16 +109,11 @@ h2{text-align: center;
   }
   input[type=submit] {
     padding:5px 15px; 
-    background:rgb(15, 178, 11); 
+    background:#0FB20B; 
     border: 0;
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
     font-size: 1.33em;
 }
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .navbar .nav-item .nav-link .content  {
-      width: 100%;
-    }
-}
+
