@@ -1,11 +1,11 @@
 .grid {
     display: grid;
-    grid-template-rows: 150px 75px 500px 150px;
-    height: 100vh;    
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 90vh; 
 }
 
 .header {
-    grid-row: 1/2;
+    grid-row: 0/1;
     text-align: center;
 }
 
@@ -14,33 +14,25 @@ img {
     width: 150px;
 }
 
-.navbar {
-    background-color:dodgerblue;
-    grid-row: 2/3;
+.navigation {
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: center;
-
-}
-
-.nav-item {
-    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     list-style: none;
-    padding-inline: 35px;
-    padding-bottom: 8px;
-    padding-top: 5px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.nav-link {
-    color: gold;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  .navigation a {
     text-decoration: none;
-}
-
-a:hover {
+    display: block;
+    padding: .75em;
     color: white;
-}
+    background: deepskyblue;
+  }
+  .navigation a:hover {
+    background: #1565C0;
+    color:yellow;
+  }
 
 .content {
    display: grid;
