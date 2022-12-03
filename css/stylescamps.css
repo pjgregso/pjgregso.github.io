@@ -86,8 +86,7 @@ p{
 
 form{text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font: 1;
-     font-size: 1.5em;
+    font-size: 1.5em;
     background-color:none;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     margin-left: 10em;
@@ -102,6 +101,7 @@ form{text-align: center;
     margin: 20px;
     padding: 50px;
     color: white;
+
 
 }
 
